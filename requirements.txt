@@ -1,0 +1,15 @@
+flask
+os
+json
+base64
+requests
+re
+subprocess
+datetime
+io 
+copy 
+librosa
+soundfile
+docxtpl
+docx.shared
+flask_cors
