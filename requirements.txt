@@ -1,15 +1,7 @@
 flask
-json
-base64
+flask-cors
 requests
-re
-subprocess
-datetime
-io 
-copy 
 librosa
 soundfile
 docxtpl
-docx.shared
-
-flask_cors
+python-docx
