@@ -120,6 +120,11 @@ Return JSON in this format:
 
     return jsonify({"parsed_resume": parsed_resume, "template": selected_template})
 
+# Ensure the output directory exists (for Render and local)
+OUTPUT_DIR = os.path.join(os.getcwd(), "output")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+
 # ----------------- GENERATE RESUME (Word + PDF) ---------------------
 @app.route('/generate_resume', methods=['POST'])
 def generate_resume():
